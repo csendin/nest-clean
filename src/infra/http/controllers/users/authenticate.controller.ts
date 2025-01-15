@@ -3,8 +3,9 @@ import { JwtService } from '@nestjs/jwt'
 import { compare } from 'bcryptjs'
 import { z } from 'zod'
 
-import { ZodValidationPipe } from '@/infra/pipes/zod-validation-pipe'
 import { PrismaService } from '@/infra/prisma/prisma.service'
+
+import { ZodValidationPipe } from '../../pipes/zod-validation-pipe'
 
 const authenticateBodySchema = z.object({
     email: z.string().email(),
