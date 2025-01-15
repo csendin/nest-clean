@@ -18,8 +18,8 @@ POST {{baseUrl}}/sessions
 Content-Type: application/json
 
 {
-    "email": "clarasendin@email.com",
-    "password": "010203"
+    "email": "caiosendin@email.com",
+    "password": "123456"
 }
 
 ###
@@ -30,8 +30,8 @@ Content-Type: application/json
 Authorization: Bearer {{authToken}}
 
 {
-    "title": "Title",
-    "content": "Content"
+    "title": "Número Pi",
+    "content": "Quantas casas decimais tem o número pi?"
 }
 
 ###
